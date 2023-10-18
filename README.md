@@ -139,10 +139,12 @@ Respuesta :
 
 •	¿En qué archivo está el código que más se corresponde con la lógica del archivo app.rb de las aplicaciones Sinatra que maneja las acciones entrantes del usuario?  
 
-Respuesta :
+Respuesta : 
+
 -Lo mas parecido a app.rb de sinatra a la aplicacion en rails serian 2 partes , la de controlador y la de routes , ya que app.rb cuenta con estas dos logicas .
 
 •	¿Qué clase contiene ese código?
+
 -Respuesta:
    Esta solo contiene una clase , esta es GameController la hereda a AplicationControleer esta contiene la logica atravez de la cual nos dara respuestas a lo que nosotros juguemos 
    :
@@ -151,14 +153,19 @@ Respuesta :
 
    
 •	¿De qué otra clase (que es parte del framework Rails) hereda esa clase?
+
 Respuesta:
   Este hereda de AplicationController
+  
 •	¿En qué directorio está el código correspondiente a las vistas de la aplicación Sinatra (new.erb, show.erb, etc.)?
+
   Esta se encuentra en la parte de view/game donde existen 4 vistas : lose.html.erb,new.html.erb,show.html.erb,win.html.erb
   
 •	Los sufijos de nombre de archivo para estas vistas son diferentes en Rails que en la aplicación Sinatra. ¿Qué información proporciona el sufijo situado más a la derecha del nombre del archivo (por ejemplo: en foobar.abc.xyz, el sufijo .xyz) sobre el contenido del archivo?  
+
 Respuesta :
     Por ejemplo en los archivo mencionados anteriormente ,.erb hace que se haga codigo dinamico , es decir que se puede agregar codigo ruby en el primer sufijo , en este caso html
+    
 •	¿Qué información te brinda el otro sufijo sobre lo que se le pide a Rails que haga con el archivo?
 Respuesta :
   mencionado anteriormente se puede agregar codigo ruby para poder facilitar la llamada de objetos y metodos a los archivos html o a los demas tipos de archivos 
